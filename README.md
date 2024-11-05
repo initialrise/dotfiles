@@ -1,1 +1,1 @@
-# Config files for dwm and its auxillary programs
+# My Personal Dotfiles Backup
