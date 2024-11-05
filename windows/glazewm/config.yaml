@@ -1,7 +1,8 @@
 general:
   # Commands to run when the WM has started (e.g. to run a script or launch
   # another application). Here we are running a batch script to start Zebar.
-  startup_commands: ['shell-exec %userprofile%/.glzr/zebar/start.bat']
+  #startup_commands: ['shell-exec %userprofile%/.glzr/zebar/start.bat']
+  startup_commands: ['shell-exec zebar']
 
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
@@ -71,9 +72,17 @@ window_behavior:
 
 workspaces:
   - name: '1'
+    display_name: "web"
+    bind_to_monitor: 0
   - name: '2'
+    display_name: "code"
+    bind_to_monitor: 0
   - name: '3'
+    display_name: "notes"
+    bind_to_monitor: 0
   - name: '4'
+    display_name: "bg"
+    bind_to_monitor: 0
   - name: '5'
   - name: '6'
   - name: '7'
